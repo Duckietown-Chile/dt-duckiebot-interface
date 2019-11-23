@@ -19,10 +19,10 @@
     </include>
 
 
-    <include file="$(find wheels_driver)/launch/wheels_driver_node.launch">
+    <include file="$(find duckiebot_driver)/launch/wheels_driver_node_rpi3.launch">
         <arg name="veh" value="$(arg veh)"/>
-        <arg name="config" value="$(arg config)"/>
-        <arg name="param_file_name" value="$(arg param_file_name)"/>
+       <!-- <arg name="config" value="$(arg config)"/>
+        <arg name="param_file_name" value="$(arg param_file_name)"/>-->
     </include>
 
 

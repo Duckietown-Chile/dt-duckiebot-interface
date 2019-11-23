@@ -22,7 +22,8 @@ RUN apt-get update && apt-get install -y \
     ros-kinetic-tf-conversions \
     ros-kinetic-joy \
     python-pip \
-    python-smbus
+    python-smbus \
+    python-serial
 
 # RPi libs
 ADD qemu/vc.tgz /opt/
